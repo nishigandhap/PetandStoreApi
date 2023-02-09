@@ -81,3 +81,7 @@ To run specific spec/file
 npx cypress run --spec "cypress/e2e/2-advanced-examples/E2E Test/*.js" --headed
 
 ```
+## Screenshot
+
+<img width="717" alt="Screenshot 2023-02-09 at 17 03 58" src="https://user-images.githubusercontent.com/58659856/217870083-fe9120c6-9eed-4f0a-9125-cbc418389ca0.png">
+
