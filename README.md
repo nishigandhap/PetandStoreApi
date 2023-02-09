@@ -82,7 +82,7 @@ To run specific spec/file
 npx cypress run --spec "cypress/e2e/2-advanced-examples/E2E Test/*.js" --headed
 
 ```
-** Git link
+## Git link
 ```
 https://github.com/nishigandhap/PetandStoreApi.git
 ```
