@@ -7,7 +7,7 @@ describe("Delete pet from the store and verify pet is not found", () => {
     let testId = ""
     const petUrl = Cypress.env("petUrl")
 
-    it("Create a new pet and delete it from the store and veriy pet is not found", () => {
+    it("Create a new pet and delete it from the store and verify pet is not found", () => {
         var pattern = '0123456789'
         for (var i = 0; i < 5; i++)
             randomId += pattern.charAt(Math.floor(Math.random() * pattern.length))
