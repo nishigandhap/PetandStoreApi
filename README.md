@@ -1,7 +1,7 @@
 
 # Project regarding CRUD operations and E2E test
 
-Tested and confirmed the functionality of the API endpoints for both Pet and Store features.
+Tested and confirmed the functionality of the API endpoints for both Pet and Store features. Additionally, the Allure report was also generated.
 
 
 ## Table of Contents
@@ -9,8 +9,7 @@ Tested and confirmed the functionality of the API endpoints for both Pet and Sto
 * API Reference
 * Installation
 * Running Tests
-* Git link
-* Screenshot
+* Git repo link
 
 ## API Reference
 
@@ -19,6 +18,9 @@ Tested and confirmed the functionality of the API endpoints for both Pet and Sto
 ```
   https://petstore.swagger.io/
 ```
+
+
+
 
 
 
@@ -61,33 +63,62 @@ This should open the Cypress Test Runner in your default web browser.
 
 With these steps, you should have both Node.js and Cypress installed on your computer and ready to use. If you encounter any issues during the installation process, refer to the official documentation for Node.js and Cypress(https://docs.cypress.io/) for more information and support.
 
+
+## Install Allure report
+
+Install Java for windows
+```
+https://www.oracle.com/java/technologies/downloads/#jdk19-windows
+```
+
+Install Java for mac
+
+```
+https://www.oracle.com/java/technologies/downloads/#jdk17-mac
+```
+
+Run the below command:
+
+Link: https://www.npmjs.com/package/@shelex/cypress-allure-plugin
+
+```
+npm i -D @shelex/cypress-allure-plugin
+```
+
+https://www.npmjs.com/package/allure-commandline
+```
+npm i allure-commandline
+```
+
+For mac users any issue with allure installation run the below command:
+```
+sudo npm install -g allure-commandline
+```
+Check version for allure:
+
+```
+allure --version
+```
+
+
+
+
+
+## How to run test
+
+```
+npm run reportTest
+```
+
+Check allure results folder is created.
+
+To open the allure report, type below command.
+
+```
+allure open
+```
+
 ## Git clone
 ```
-git clone <repo_url>
+git clone https://github.com/nishigandhap/PetandStoreApi
 ```
-
-
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```
-  npx cypress run --spec "cypress/e2e/2-advanced-examples/**/*.js" --headed
-```
-To run specific spec/file
-
-```
-npx cypress run --spec "cypress/e2e/2-advanced-examples/E2E Test/*.js" --headed
-
-```
-## Git link
-```
-https://github.com/nishigandhap/PetandStoreApi.git
-```
-
-## Screenshot
-
-<img width="717" alt="Screenshot 2023-02-09 at 17 03 58" src="https://user-images.githubusercontent.com/58659856/217870083-fe9120c6-9eed-4f0a-9125-cbc418389ca0.png">
-
