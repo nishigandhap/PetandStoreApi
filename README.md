@@ -66,12 +66,12 @@ With these steps, you should have both Node.js and Cypress installed on your com
 
 ## Install Allure report
 
-Install Java for windows
+Install Java for ## windows
 ```
 https://www.oracle.com/java/technologies/downloads/#jdk19-windows
 ```
 
-Install Java for mac
+Install Java for ## mac
 
 ```
 https://www.oracle.com/java/technologies/downloads/#jdk17-mac
@@ -90,7 +90,7 @@ https://www.npmjs.com/package/allure-commandline
 npm i allure-commandline
 ```
 
-For mac users any issue with allure installation run the below command:
+## For mac users any issue with allure installation run the below command:
 ```
 sudo npm install -g allure-commandline
 ```
@@ -110,7 +110,7 @@ allure --version
 npm run reportTest
 ```
 
-Check allure results folder is created.
+## Check allure-results and allure-report folder is created.
 
 To open the allure report, type below command.
 
