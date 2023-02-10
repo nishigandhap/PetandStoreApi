@@ -10,6 +10,7 @@ Tested and confirmed the functionality of the API endpoints for both Pet and Sto
 * Installation
 * Running Tests
 * Git repo link
+* Screenshot
 
 ## API Reference
 
@@ -122,3 +123,6 @@ allure open
 ```
 git clone https://github.com/nishigandhap/PetandStoreApi
 ```
+
+## Screenshot
+<img width="717" alt="API test screenshot" src="https://user-images.githubusercontent.com/58659856/218114602-b58e89ab-c8b9-45ab-9d26-8dee074db0e2.png">
