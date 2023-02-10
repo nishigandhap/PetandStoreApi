@@ -77,7 +77,7 @@ Install Java for **mac**
 https://www.oracle.com/java/technologies/downloads/#jdk17-mac
 ```
 
-**Run the below command:
+**Run the below command:**
 
 Link: https://www.npmjs.com/package/@shelex/cypress-allure-plugin
 
