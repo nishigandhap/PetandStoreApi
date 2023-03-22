@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "slug": "Slug_Articles",
+            "title": "aodfjksjtv",
+            "description": "wtfdqgeyvv",
+            "body": "pzogpwkbxipzuvj",
+            "createdAt": "2023-03-16T13:27:33.138Z",
+            "updatedAt": "2023-03-16T13:27:33.138Z",
+            "tagList": [],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "deepak",
+                "bio": "rtjwcyhgwc",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        },
+        {
+            "slug": "scccsinsil-gudke9",
+            "title": "scccsinsil",
+            "description": "uvxxuumhln",
+            "body": "ezeufxhzwiphlqh",
+            "createdAt": "2023-03-16T13:12:35.604Z",
+            "updatedAt": "2023-03-16T13:12:35.604Z",
+            "tagList": [],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "deepak",
+                "bio": "rtjwcyhgwc",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 29040
+}
