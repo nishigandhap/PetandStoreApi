@@ -3,7 +3,7 @@
 describe('API test suite', function () {
 
     const petUrl = Cypress.env('petUrl')
-    // const conductUrl = Cypress.env('conductUrl')
+    const baseUrl = Cypress.env('baseUrl')
 
     it('Get pet status', function () {
         cy.request('GET', petUrl + 'findByStatus?status=available', { fixture: 'getAPI' })
@@ -20,18 +20,8 @@ describe('API test suite', function () {
         //     expect(response.status).to.eq(200)
         //     expect(response.body.tags[0]).to.be.exist
         // })
+        cy.intercept('GET', Cypress.env('baseUrl') + '/api/articles*', { fixture: 'articles.json' }).as('getArticles')
+        cy.wait('@getArticles').its('response.statusCode').should('eq', 200)
 
-        cy.fixture('articles.json').then((data) => {
-            const articlesData = data.articles[0].slug
-            cy.intercept('GET', Cypress.env('baseUrl') + '/api/articles*', data).as('getArticles')
-            cy.log(articlesData)
-            cy.wait('@getArticles').its('response.statusCode').should('eq', 200)
-        })
     })
-
-
 })
-
-
-
-//cy.intercept('GET', Cypress.env('baseUrl') + '/api/articles*', { fixture: 'articles.json' }).as('getArticles')

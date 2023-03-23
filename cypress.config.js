@@ -13,6 +13,8 @@ module.exports = defineConfig({
   env: {
 
     petUrl: 'https://petstore.swagger.io/v2/pet/',
-    storeUrl: 'https://petstore.swagger.io/v2/store/'
+    storeUrl: 'https://petstore.swagger.io/v2/store/',
+    baseUrl: 'https://candidatex:qa-is-cool@qa-task.backbasecloud.com'
+
   }
 });
